@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 800px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  line-height: 24px;
+  font-family: PT serif;
+  font-size: 14.4px;
+  padding: 50px;
+}
+.first-div{
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr;
+  column-gap: 40px;
+  margin-bottom: 50px;
+}
+.second-div{
+  margin-bottom: 50px;
+}
+.con-name{
+  /* font-weight: bold; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: 16px;
+  margin-right: 5px;
+}
+.img{
+  width: 100%;
+  height: 350px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.third-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20px;
+}
+.year-topData{
+  display: grid;
+  grid-template-columns: 27% 1fr;
+}
+.third-one{
+  background-color: #e2414d;
+  padding: 30px 30px 0 30px;
+  color: rgb(245, 239, 239);
+}
+.third-two{
+  background-color: #eed27b;
+  padding: 30px 30px 0 30px;
+}
+.third-three{
+  background-color: #2fb4be;
+  padding: 30px 30px 0 30px;
+  color: rgb(245, 239, 239);
+}
+.edu1{
+  margin-bottom: 30px;
+}
+.bold,.year{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+h3{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.location{
+  margin-bottom: 10px;
+}
+
+.work-year1{
+  position: absolute;
+  top: 772px;
+  left: 563px;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.work-year2{
+  position: absolute;
+  top: 1004px;
+  left: 563px;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.data{
+  margin-left: 22px;
+}
+.work1{
+  margin-bottom: 30px;
+}
+.skill{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 13px;
+  margin-bottom: 8px;
+}
+.heading-portfolio{
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+.portfolio1,.portfolio2,.portfolio3{
+  margin-bottom: 10px;
+}
+.year{
+  font-size: 16px;
+}
+.portfolio-num{
+  /* font-size: 15.5px; */
+  color: white;
+}
+.name-data{
+  background-color: white;
+  position: absolute;
+  top: 522px;
+  left: 325px;
+  font-size: 40px;
+  padding: 10px 10px 10px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.fname{
+  margin-bottom: 10px;
+}
+.lname{
+  color: #e3424f;
+  float: right;
+}
+.name1,.name2,.name3{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name1{
+  margin-top: 10px;
+  color: #e75e6b;
+}
+.name2{
+  color: #f0d27d;
+}
+.name3{
+  color: #32b5c1;
+  margin-bottom: 41px;
+}
+.post{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}

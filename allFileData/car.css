@@ -1,0 +1,35 @@
+
+body{
+  background-color: rgb(248, 96, 96);
+}
+.car{
+  position: absolute;
+  bottom: 0.2rem;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.start{
+  margin: 0.4rem;
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.start:hover{
+  color: rgb(10, 235, 235);
+  cursor: pointer;
+}
+.stop{
+  margin: 0.4rem;
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.stop:hover{
+  color: rgb(10, 235, 235);
+  cursor: pointer;
+}
